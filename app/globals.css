@@ -46,7 +46,8 @@
 :root {
   --radius: 0.625rem;
   --background: #212121;
-  --foreground: #ffffff;
+  /* Tailwind gray-50 */
+  --foreground: #f9fafb;
   --card: oklch(1 0 0);
   --card-foreground: oklch(0.145 0 0);
   --popover: oklch(1 0 0);
@@ -80,7 +81,7 @@
 
 .dark {
   --background: #212121;
-  --foreground: #ffffff;
+  --foreground: #f9fafb;
   --card: oklch(0.205 0 0);
   --card-foreground: oklch(0.985 0 0);
   --popover: oklch(0.205 0 0);
